@@ -2,6 +2,18 @@
 
 This is a comprehensive web application for company registration and verification. It features a modern frontend built with React and a robust backend utilizing Node.js and Express.
 
+## Features
+
+*   **User Authentication**: Secure signup and login using Firebase Authentication.
+*   **Company Registration Workflow**: A multi-step form wizard for registering companies with detailed information.
+*   **Data Verification**: Automated and manual verification processes for company details.
+*   **Profile Management**: Users can view and manage their profiles and registered company data.
+*   **File Uploads**: Integration with Cloudinary for secure uploading and storage of company documents and logos.
+*   **Form Validation**: Robust client-side validation using React Hook Form and Yup to ensure data integrity.
+*   **Hybrid Database Architecture**: Utilizes PostgreSQL for structured relational data and MongoDB for flexible document storage.
+*   **Responsive Design**: A modern, responsive UI built with Tailwind CSS and Material UI components.
+*   **Secure API**: JWT-based session management and protected backend routes.
+
 ## Tech Stack
 
 **Frontend:**
@@ -14,7 +26,7 @@ This is a comprehensive web application for company registration and verificatio
 **Backend:**
 *   Node.js & Express
 *   PostgreSQL (Primary Database - `pg`)
-*   MongoDB (via `mongoose`) (Note: Check usage, dependencies include both)
+*   MongoDB (via `mongoose`)
 *   Cloudinary (Image Uploads)
 *   Firebase Admin (Auth Verification)
 
