@@ -1,0 +1,12 @@
+node_modules
+.env
+dist
+build
+.DS_Store
+*.log
+backend.backup.*
+frontend.backup.*
+tmp_main.jsx
+package.json.bak
+package.json.forcereplace
+package.json.preclean

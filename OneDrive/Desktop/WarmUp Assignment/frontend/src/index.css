@@ -1,0 +1,53 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS (optional) */
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.input {
+  @apply w-full border border-gray-300 rounded-md px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand focus:border-brand;
+}
+
+.btn {
+  @apply bg-brand text-white px-4 py-2 rounded-md hover:bg-brand-dark transition;
+}
+
+.btn-ghost {
+  @apply text-brand hover:underline text-sm;
+}
+
+.card {
+  @apply bg-white p-6 rounded-lg shadow-md border border-gray-200;
+}
+
+.h2 {
+  @apply text-2xl font-bold;
+}
+
+.skeleton {
+  @apply bg-gray-200 animate-pulse rounded;
+}
+
+/* Brand color */
+:root {
+  --brand: #4f46e5;
+}
+
+.bg-brand {
+  background-color: var(--brand);
+}
+
+.text-brand {
+  color: var(--brand);
+}
+
+.focus:ring-brand {
+  --tw-ring-color: var(--brand);
+}

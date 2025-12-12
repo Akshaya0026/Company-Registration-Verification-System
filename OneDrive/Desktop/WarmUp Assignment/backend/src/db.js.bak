@@ -1,0 +1,18 @@
+// backend/src/db.js
+
+import dotenv from "dotenv";
+dotenv.config(); // loads backend/.env
+
+import pkg from "pg";
+const { Pool } = pkg;
+
+// Update with your actual PostgreSQL credentials
+const pool = new Pool({
+  user: process.env.PGUSER || "postgres",
+  host: process.env.PGHOST || "localhost",
+  database: process.env.PGDATABASE || "company_db", // <-- Change to your DB name
+  password: process.env.PGPASSWORD || "1234",       // <-- Change to your DB password
+  port: process.env.PGPORT ? Number(process.env.PGPORT) : 5432,
+});
+
+export default pool;

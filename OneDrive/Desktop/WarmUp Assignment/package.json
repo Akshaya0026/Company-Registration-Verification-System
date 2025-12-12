@@ -1,0 +1,23 @@
+{
+  "name": "warmup-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@hookform/resolvers": "^5.2.2",
+    "@mui/icons-material": "^7.3.6",
+    "@mui/material": "^7.3.6",
+    "@reduxjs/toolkit": "^2.11.1",
+    "@tanstack/react-query": "^5.90.12",
+    "axios": "^1.13.2",
+    "firebase": "^12.6.0",
+    "react-hook-form": "^7.68.0",
+    "react-redux": "^9.2.0",
+    "yup": "^1.7.1"
+  }
+}
